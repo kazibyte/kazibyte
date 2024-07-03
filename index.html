@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Embedded Content</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <h2>hello</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio earum doloremque perferendis recusandae, odio sequi rerum accusantium dolorem, sunt consectetur quos sit quasi illum pariatur vero, officiis quae error laudantium.</p>
-    <audio>
+<body class="bg-gray-100">
 
-    </audio>
-    <div>
-        <li>
-            <a href="@">Home</a>
-        </li>
+    <!-- Embedded Content -->
+    <div class="container mx-auto px-4 py-8">
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Welcome, @kazibyte</h2>
+            <div class="aspect-w-16 aspect-h-9">
+                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7214102126359117824" frameborder="0" allowfullscreen="" title="Embedded post" class="w-full h-full"></iframe>
+            </div>
+        </section>
     </div>
 
-
-    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7214102126359117824" height="544" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 </body>
 </html>
