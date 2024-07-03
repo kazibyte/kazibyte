@@ -1,11 +1,10 @@
 ---
 
-#### Organizations - [KaziByte](https://www.linkedin.com/company/kazibyte/)
+#### Organizations - [Kazi Byte](https://www.linkedin.com/company/kazibyte/)
 
 
 ## Overview
 KaziByte is a dynamic software development company committed to transforming the digital landscape through innovative solutions and cutting-edge technologies. We specialize in delivering bespoke software solutions tailored to meet the diverse needs of our clients, ranging from startups to established enterprises.
-
 
 ## Details of Company information
 
