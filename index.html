@@ -3,18 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Content</title>
+    <title>Welcome to Kazibyte || Kazi Byte</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Kazibyte is a software development company founded in 2022 by Zobaidul Kazi, specializing in delivering flexible and cost-effective software solutions. We prioritize customer satisfaction, embrace challenges, and offer innovative solutions.">
+    <meta name="keywords" content="Kazibyte, software development, Zobaidul Kazi, flexible software solutions, cost-effective solutions, innovative solutions, customer satisfaction, Full Stack Developer, technology, learning, patience, attention to detail">
+    <meta name="author" content="Zobaidul Kazi">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kazibyte.github.io">
+    <meta property="og:title" content="Kazi Byte Organization">
+    <meta property="og:description" content="Kazibyte is a software development company founded in 2022 by Zobaidul Kazi, specializing in delivering flexible and cost-effective software solutions. We prioritize customer satisfaction, embrace challenges, and offer innovative solutions.">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/155332163?s=400&u=ba848699d3be32253cfdb382074820deab7259b2&v=4">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="Kazibyte Organization">
+    <meta property="twitter:url" content="https://x.com/zobaidulkazi">
+    <meta property="twitter:title" content="zobaidulkazi">
+    <meta property="twitter:description" content="Kazibyte is a software development company founded in 2022 by Zobaidul Kazi, specializing in delivering flexible and cost-effective software solutions. We prioritize customer satisfaction, embrace challenges, and offer innovative solutions.">
+    <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/155332163?s=400&u=ba848699d3be32253cfdb382074820deab7259b2&v=4">
+
     <!-- Include Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Additional custom styles */
+        .iframe-container {
+            border: 2px solid #e2e8f0; /* Light gray border */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .iframe-container:hover {
+            transform: translateY(-4px); /* Hover effect */
+        }
+
+        .iframe-container iframe {
+            border: none;
+        }
+    </style>
 </head>
 <body class="bg-gray-100">
 
     <!-- Embedded Content -->
     <div class="container mx-auto px-4 py-8">
         <section class="mb-8">
-            <h2 class="text-2xl font-bold mb-4">Welcome, @kazibyte</h2>
-            <div class="aspect-w-16 aspect-h-9">
-                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7214102126359117824" frameborder="0" allowfullscreen="" title="Embedded post" class="w-full h-full"></iframe>
+            <h2 class="text-4xl font-bold text-center mb-4">
+               Welcome to Kazibyte
+            </h2>
+            <div class="iframe-container overflow-hidden rounded-lg border-blue-500 hover:border-blue-600">
+                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7214102126359117824" frameborder="0" allowfullscreen="" title="Embedded post" class="w-screen h-screen"></iframe>
             </div>
         </section>
     </div>
